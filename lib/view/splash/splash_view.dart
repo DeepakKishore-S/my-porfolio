@@ -27,22 +27,30 @@ class _SplashViewState extends State<SplashView> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: darkColor,
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            AnimatedImageContainer(
-              width: 100,
-              height: 100,
-            ),
-            SizedBox(
-              height: defaultPadding,
-            ),
-            AnimatedLoadingText(),
-          ],
+    return Container(
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: const AssetImage('assets/images/bg-image.jpg'),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: const Scaffold(
+        backgroundColor: Colors.transparent,
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              AnimatedImageContainer(
+                width: 100,
+                height: 100,
+              ),
+              SizedBox(
+                height: defaultPadding,
+              ),
+              AnimatedLoadingText(),
+            ],
+          ),
         ),
       ),
     );
