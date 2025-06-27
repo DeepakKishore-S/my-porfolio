@@ -39,10 +39,10 @@ class ProjectGrid extends StatelessWidget {
                         offset: const Offset(0, 4),
                       ),
                       BoxShadow(
-                        color: Colors.purpleAccent.withOpacity(0.2),
+                        color: Colors.blueAccent.withOpacity(0.2),
                         blurRadius: controller.hovers[index] ? 20 : 10,
                         offset: const Offset(0, -2),
-                      ),
+                      )
                     ],
                   ),
                   child: ProjectStack(index: index),

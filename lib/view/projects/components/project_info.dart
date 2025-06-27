@@ -36,14 +36,9 @@ class ProjectStack extends StatelessWidget {
               border: Border.all(color: Colors.white.withOpacity(0.2)),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.blueAccent.withOpacity(0.2),
+                  color: Colors.black.withOpacity(0.4),
                   blurRadius: controller.hovers[index] ? 20 : 10,
-                  offset: const Offset(0, 4),
-                ),
-                BoxShadow(
-                  color: Colors.blueAccent.withOpacity(0.2),
-                  blurRadius: controller.hovers[index] ? 20 : 10,
-                  offset: const Offset(0, -2),
+                  offset: const Offset(4, 4),
                 ),
               ],
             ),
