@@ -15,7 +15,7 @@ class MainView extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: const DecorationImage(
-          image: AssetImage('assets/images/bg-image.jpg'),
+          image: AssetImage('assets/images/flu.jpeg'),
           fit: BoxFit.cover,
         ),
       ),
