@@ -7,6 +7,8 @@ import 'components/drawer/drawer.dart';
 import 'components/navigation_button_list.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
+final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+
 class MainView extends StatelessWidget {
   const MainView({super.key, required this.pages});
   final List<Widget> pages;
@@ -14,12 +16,13 @@ class MainView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
-        image: const DecorationImage(
+        image:  DecorationImage(
           image: AssetImage('assets/images/flu.jpeg'),
           fit: BoxFit.cover,
         ),
       ),
       child: Scaffold(
+        key: scaffoldKey,
         backgroundColor: Colors.transparent,
         drawer: const CustomDrawer(),
         body: Center(
