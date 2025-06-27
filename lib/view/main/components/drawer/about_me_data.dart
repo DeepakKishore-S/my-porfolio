@@ -4,7 +4,8 @@ class AboutMeData {
   static const String location = 'Chennai, Tamil Nadu - 600081';
   static const String phone = '+91 8667024828';
   static const String email = 'deepakkishore.sc@gmail.com';
-  static const String linkedin = 'https://www.linkedin.com/in/deepak-kishore/';
+  static const String linkedin =
+      'https://www.linkedin.com/in/deepak-kishore-sc/';
   static const String profile =
       'Flutter Specialist | Turning Ideas Into Apps | Clean Code';
   static const List<String> skills = [
