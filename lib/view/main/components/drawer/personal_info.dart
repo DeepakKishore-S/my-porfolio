@@ -26,14 +26,6 @@ class PersonalInfo extends StatelessWidget {
           uri: AboutMeData.linkedin,
         ),
         const SizedBox(height: defaultPadding),
-        const Text('Skills', style: TextStyle(color: Colors.white)),
-        const SizedBox(height: defaultPadding / 2),
-        ...AboutMeData.skills.map((skill) => Padding(
-              padding: const EdgeInsets.only(bottom: 4.0),
-              child: Text(skill,
-                  style: const TextStyle(color: Colors.white70, fontSize: 12)),
-            )),
-        const SizedBox(height: defaultPadding),
       ],
     );
   }

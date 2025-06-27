@@ -1,25 +1,22 @@
 import 'package:flutter/material.dart';
-
 import 'knowledge.dart';
+import 'about_me_data.dart';
 
 class Knowledges extends StatelessWidget {
   const Knowledges({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Divider(),
-        Padding(
+        const Divider(),
+        const Padding(
           padding: EdgeInsets.symmetric(vertical: 10),
-          child: Text('Knowledge',style: TextStyle(color: Colors.white),),
+          child: Text('Knowledge', style: TextStyle(color: Colors.white)),
         ),
-        KnowledgeText(knowledge: 'Flutter, Dart'),
-        KnowledgeText(knowledge: 'Networking, Cyber Security'),
-        KnowledgeText(knowledge: 'Git, Github'),
+        ...AboutMeData.skills.map((skill) => KnowledgeText(knowledge: skill)),
       ],
     );
   }
-
 }

@@ -69,7 +69,7 @@ class MySKills extends StatelessWidget {
         AnimatedLinearProgressIndicator(
             percentage: 0.9, title: 'Dart', image: 'assets/icons/dart.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.6,
+            percentage: 0.7,
             title: 'Firebase',
             image: 'assets/icons/firebase.png'),
         AnimatedLinearProgressIndicator(
@@ -79,13 +79,15 @@ class MySKills extends StatelessWidget {
             title: 'Responsive Design',
             image: 'assets/icons/flutter.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.9,
+            percentage: 0.7,
             title: 'Clean Architecture',
             image: 'assets/icons/flutter.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.5, title: 'Bloc', image: 'assets/icons/bloc.png'),
+            percentage: 0.7, title: 'Bloc', image: 'assets/icons/bloc.png'),
         AnimatedLinearProgressIndicator(
-            percentage: 0.93, title: 'Getx', image: 'assets/icons/dart.png'),
+            percentage: 0.93,
+            title: 'Provider',
+            image: 'assets/icons/dart.png'),
       ],
     );
   }
