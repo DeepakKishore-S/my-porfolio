@@ -36,11 +36,3 @@ class DrawerImage extends StatelessWidget {
     );
   }
 }
-
-// git init
-// git add .
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/DeepakKishore-S/my-porfolio.git
-// git push -u origin main
-// git config --global user.email "sdkdeepak600@gmail.com"
