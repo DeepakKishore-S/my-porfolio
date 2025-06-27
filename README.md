@@ -1,84 +1,77 @@
-# Responsive Flutter Portfolio Application & Website
+# Deepak Kishore S - Flutter Developer Portfolio
 
-Thank you for visiting my portfolio website repository. This Flutter-based website serves as a showcase of my skills, projects, certifications, and ways to get in touch with me. The website is designed with a strong focus on responsiveness, ensuring that it looks and works flawlessly across a range of devices, from large desktop screens to compact Android devices.
+## About Me
 
-## Live Demo
+**Deepak Kishore S**  
+Flutter Developer  
+Chennai, Tamil Nadu - 600081  
+📞 +91 9514524677  
+✉️ deepakkishore.sc@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/deepak-kishore/)
 
-You can explore the live version of the website [Click to see live demo](https://hamad-anwar.github.io/Portfolio/#/).
-
-## Screenshots
-
-<img src="showcase.png">
-
-## Table of Contents
-
-- [Key Features](#key-features)
-- [Technologies and Packages Used](#technologies-and-packages-used)
-- [Getting Started](#getting-started)
-- [Usage Guide](#usage-guide)
-- [Contributions](#contributions)
-- [Contact Me](#contact-me)
-- [License](#license)
-
-## Key Features
-
-- **Responsive Design:** The portfolio website is meticulously designed to provide a consistent and visually pleasing experience across a wide variety of devices. Whether you're accessing the website on a large desktop screen, a laptop, a tablet, or a small Android smartphone, the layout and content will adapt gracefully to ensure optimal usability.
-
-- **Project Showcase:** The heart of the portfolio lies in its project showcase. Each project is presented with a captivating card that provides a glimpse of the project's essence. Visitors have the option to click on these cards to delve deeper into the details of each project. Furthermore, a direct link to the corresponding GitHub repository allows visitors to explore the codebase and gain a comprehensive understanding of the project's technical aspects.
-
-- **Certifications and Achievements:** I believe in continuous learning and growth, which is why the portfolio features a dedicated section showcasing my certifications and achievements. This provides insight into my professional journey, highlighting the skills and expertise I've acquired along the way.
-
-- **Contact and Interaction:** To facilitate easy communication, the portfolio provides multiple avenues to get in touch with me. The contact section features information such as my email address, LinkedIn profile, and Twitter handle. Whether you're a potential collaborator, an employer, or just someone interested in connecting, I'm always open to meaningful conversations.
-
-- **Elegant UI and Animations:** The user interface of the portfolio is thoughtfully designed to not only be functional but also visually appealing. Subtle animations are integrated throughout the website to create an engaging and delightful browsing experience. These animations are carefully balanced to enhance user engagement without overwhelming the content.
-
-## Technologies and Packages Used
-
-The portfolio website is built using Flutter, a powerful open-source UI software development toolkit. The following packages were utilized to enhance various aspects of the website:
-
-- [google_fonts](https://pub.dev/packages/google_fonts): Incorporates visually appealing and readable fonts from the Google Fonts library into the website.
-- [flutter_svg](https://pub.dev/packages/flutter_svg): Enables the seamless integration and rendering of SVG images, ensuring high-quality graphics across all devices.
-- [get](https://pub.dev/packages/get): Empowers efficient state management, simplifying the process of handling and updating UI components.
-- [photo_view](https://pub.dev/packages/photo_view): Provides an elegant and user-friendly image viewer for an enhanced visual experience.
-- [url_launcher](https://pub.dev/packages/url_launcher): Enables easy integration with external links, allowing visitors to quickly navigate to external resources.
-- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter): Introduces a wide variety of customizable icons from the FontAwesome library, enhancing the visual representation of the website's features.
-
-## Getting Started
-
-To explore and interact with the portfolio website on your local machine, follow these steps:
-
-1. **Clone the Repository:**
-   git clone https://github.com/Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp.git
-2. **Install Dependencies:**
-   flutter pub get
-3. **Run Application**
-   flutter run
-
-## Usage Guide
-
-Once the website is up and running, you'll find a range of sections to explore:
-
-- **Home:** The landing page welcomes visitors with an overview of the website's contents and purpose.
-- **Projects:** Navigate through my various projects, each displayed as an interactive card. Clicking on a card reveals in-depth information and a direct link to the GitHub repository.
-- **Certifications:** Explore my certifications, gaining insight into my professional development journey.
-- **Contact:** Reach out to me through provided contact details or social media links.
-
-
-## Contributions
-
-I welcome contributions and suggestions from the community! If you come across any issues, have ideas for improvements, or wish to contribute in any way, feel free to open an issue or submit a pull request. Let's collaborate to make this portfolio even better!
-
-## Contact Me
-
-Your feedback and thoughts are highly valued. Feel free to connect with me through:
-
-- **Email:** rh676838@gmail.com
-- **LinkedIn:** [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Flutter developer with 4 years of experience building scalable mobile applications across fintech, e-commerce, healthcare, and logistics. Recently expanded into backend development with Node.js and Express.js, contributing to full-stack solutions. Passionate about clean architecture and continuous learning.
 
 ---
 
-### Designed and developed with ❤️ by [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar/).
+## Technical Skills
+- **Languages:** Dart, Python, JavaScript
+- **Frameworks/Libraries:** Flutter, Node.js, Express.js
+- **Databases:** Firebase, Supabase, MongoDB, SQLite, Hive
+- **APIs:** RESTful APIs
+- **Backend:** Node.js, Express.js
+- **State Management:** Provider, Riverpod, BLoC
+- **Architecture:** MVVM, MVC, Clean Architecture
+- **Integrations:** Payment Gateways, Google Maps, Third-party packages/SDKs
+- **Native Integration:** Android & iOS using platform channel
+- **Modules & Packages:** Created and maintained reusable modules and Flutter packages
+
+---
+
+## Work Experience
+
+### Instrive Softlabs PVT LTD | Flutter Developer | Nov 2024 - Present
+- Contributed to the Proxtera Seller App, focusing on UI/UX improvements, performance tuning, and bug fixes
+- Expanded full-stack capabilities by working with Node.js and Express.js for backend development
+
+### GAVS Technologies PVT LTD | Software Engineer | July 2023 - Nov 2024
+- Developed UI for Aditya Birla Capital UPI Payment Fintech App using Flutter
+- Improved app performance by implementing local database caching (Hive), optimizing state management, and utilizing debounce methods
+- Enhanced and expanded the Bharat Bill Payment System (BBPS) Module, focusing on UPI-based payment workflows and transaction reliability
+- Created and maintained reusable Flutter modules for consistent and scalable app development
+- Gained hands-on experience in digital payments, UPI integration, and secure transaction design
+
+### Ziga Infotech Ventures PVT LTD | Mobile App Developer | May 2021 - July 2023
+- Led a team of 3 and successfully delivered 5 Flutter mobile apps, including:
+  - Driver/Trip Tracking App with Google Maps integration (custom markers, polyline routing, geofencing)
+  - E-commerce App featuring a multi-vendor marketplace, Razorpay payment gateway, and product catalog
+  - Online Doctor Consultation App with video call SDK (Agora), appointment scheduling, and patient data management
+- Gained extensive experience in payment gateways, video call SDKs, and Firebase integration
+
+---
+
+## Education
+**Bachelor of Computer Science and Engineering (B.E CSE)**  
+Dhaanish Ahmed College of Engineering | 2017 - 2021
+
+---
+
+## Certifications
+- Programming, Data Structures and Algorithms Using Python | NPTEL
+- Flutter & Dart - The Complete Guide | Udemy
+
+---
+
+## Projects
+- **Proxtera Seller App:** UI/UX improvements, performance tuning, and backend integration (Node.js, Express.js)
+- **Aditya Birla Capital UPI Payment App:** Flutter UI, local caching, UPI workflows
+- **BBPS Module:** UPI-based payment workflows, transaction reliability
+- **Driver/Trip Tracking App:** Google Maps, geofencing, logistics
+- **E-commerce Multi-vendor Marketplace:** Razorpay, product catalog
+- **Online Doctor Consultation App:** Video call SDK, appointment scheduling
+
+---
+
+## Contact
+- 📞 +91 9514524677
+- ✉️ deepakkishore.sc@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/deepak-kishore/)
