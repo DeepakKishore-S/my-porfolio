@@ -21,6 +21,8 @@ class SocialMediaIconColumn extends StatelessWidget {
         // const SocialMediaIcon(icon: 'assets/icons/dribble.svg',),
         // const SocialMediaIcon(icon: 'assets/icons/twitter.svg'),
         // const SocialMediaIcon(icon: 'assets/icons/linkedin.svg'),
+
+        
       ],
     );
   }
